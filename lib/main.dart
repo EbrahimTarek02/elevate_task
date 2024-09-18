@@ -1,7 +1,10 @@
+import 'package:elevate_task/domain/di/di.dart';
 import 'package:elevate_task/ui/screens/products/products_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  configureDependencies();
+
   runApp(const MyApp());
 }
 
@@ -14,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
 
       routes: {
-        ProductsScreen.routeName : (_) => ProductsScreen()
+        ProductsScreen.routeName : (_) => const ProductsScreen()
       },
 
       initialRoute: ProductsScreen.routeName,
