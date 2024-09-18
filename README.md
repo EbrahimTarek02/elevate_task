@@ -1,16 +1,17 @@
-# elevate_task
+# Products Screen
+This is a Flutter implementation of a products screen, following the principles of MVVM (Model-View-ViewModel), Cubit, and Dependency Injection in a clean architecture.
 
-A new Flutter project.
+# Features
+- Displays a list of products
+- Fetches the product data from a repository
+- Separates the concerns between the ViewModel, Repository, and the UI code
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+<div style="display: flex; justify-content: center;">
 
-A few resources to get you started if this is your first Flutter project:
+  <img src="screenshots/success_state.png" width="250" />
+  <img src="screenshots/empty_state.png" width="250" />
+  <img src="screenshots/loading_state.png" width="250" />
+  <img src="screenshots/error_state.png" width="250" />
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+</div>
